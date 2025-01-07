@@ -16,6 +16,7 @@
 6. 安装项目依赖
    - pip install -e .
    - pip install -e ".[demo]"
+   - 运行 demo 项目的话，要根据 demo/README.md 进行操作,目前 M1 芯片启动起来，会显示不支持，可能也是要切换 cpu 模型来进行推理
 7. 创建 start.py 文件&运行文件
    - `/Users/xmly/Documents/shadow/sam2/.venv
 /bin/python /Users/xmly/Documents/shadow/sam2/start_two_point.py`
